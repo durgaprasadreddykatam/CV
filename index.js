@@ -20,20 +20,3 @@ downloadbutton.addEventListener('click', () => {
   a.click();
   document.body.removeChild(a);
 });
-
-const homecontainer = document.getElementById("home");
-console.log(homecontainer);
-const educontainer = document.getElementById("edu");
-console.log(educontainer);
-const expcontainer = document.getElementById("exp");
-console.log(expcontainer);
-const contactcontainer = document.getElementById("contact");
-console.log(contactcontainer);
-
-homecontainer.addEventListener("scroll", () => {
-    if (homecontainer.scrollend > 0) {
-        texthome.classList.add("scrolled");
-    } else {
-        texthome.classList.remove("scrolled");
-    }
-  });
