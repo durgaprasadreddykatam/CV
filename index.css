@@ -6,6 +6,26 @@
     background-color: rgb(255, 255, 255);
     width: 100vw;
   }
+  .downloadbuttondiv{
+    
+  }
+  .downloadbutton1{
+    font-family: Bad Script;
+    border-radius: 25px;
+    border: none;
+    margin: 0px;
+    position: fixed;
+    height: 70px;
+    width: 140px;
+    margin-top: 3vh;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #566d95;
+    margin-left: 80vw;
+    cursor: pointer;
+    
+
+  }
   .horizondalalign {
     display: flex;
     flex-direction: column;
@@ -34,6 +54,13 @@
     font-size: 36px;
     text-transform: capitalize;
     color: #000000;
+    cursor: pointer;
+  }
+  
+  .head-text-2-1.scrolled {
+    
+    color: #ffffff;
+    
   }
   .head-text-2-2 {
     font-family: Bad Script;
@@ -43,7 +70,39 @@
     font-size: 36px;
     text-transform: capitalize;
     color: #ffffff;
+    cursor: pointer;
   }
+  .head-text-2-3 {
+    font-family: Bad Script;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 36px;
+    text-transform: capitalize;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .head-text-2-4 {
+    font-family: Bad Script;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 36px;
+    text-transform: capitalize;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .head-text-2-5 {
+    font-family: Bad Script;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 36px;
+    text-transform: capitalize;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
   .home {
     display: flex;
     flex-direction: column;
