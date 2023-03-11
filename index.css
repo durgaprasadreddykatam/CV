@@ -1,0 +1,579 @@
+.head {
+    height: 18vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+  }
+  .horizondalalign {
+    display: flex;
+    flex-direction: column;
+    height: 82vh;
+  }
+  .head-container2 {
+    position: fixed;
+    height: 18vh;
+    width: 100vw;
+    background-color: #d75070;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .head-container2-1 {
+    margin-left: 5vw;
+  }
+  .head-container2-5 {
+    margin-right: 5vw;
+  }
+  .head-text-2-1 {
+    font-family: Bad Script;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 36px;
+    text-transform: capitalize;
+    color: #000000;
+  }
+  .head-text-2-2 {
+    font-family: Bad Script;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 36px;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+  .home {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 82vh;
+    display: flex;
+    color: white;
+    font-size: xx-large;
+    scroll-snap-align: start;
+  }
+  .edu {
+    width: 100vw;
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: xx-large;
+    scroll-snap-align: start;
+  }
+  .exp {
+    width: 100vw;
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: xx-large;
+    scroll-snap-align: start;
+  }
+  .contact {
+    width: 100vw;
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: xx-large;
+    scroll-snap-align: start;
+  }
+  .projects {
+    scroll-snap-align: start;
+  }
+  html,
+  body,.container {
+    padding: 0%;
+    margin: 0%;
+  }
+
+  .container {
+    height: 82vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    margin-top: 18vh;
+    
+  }
+  .topbar {
+    height: 20vh;
+    position: fixed;
+    background-color: brown;
+    width: 100vw;
+  }
+
+  .home-container3 {
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+  }
+
+  .home-text-1 {
+    margin-left: 10vw;
+    font-family: Bad Script;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #000000;
+  }
+  .home-container4 {
+    height: 10vh;
+    width: 100vw;
+    background-color: white;
+  }
+  .home-container5 {
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+  }
+  .home-text-4,
+  .home-text-5,
+  .home-text-7,
+  .home-text-6 {
+    font-family: Bad Script;
+    font-size: 2vh;
+    font-style: italic;
+    text-transform: capitalize;
+    color: #000000;
+  }
+  .home-container6-1 {
+    width: 70vw;
+    margin-left: 15vh;
+  }
+
+  .home-container6 {
+    height: 10vh;
+    width: 100vw;
+    background-color: white;
+  }
+  .home-text-2 {
+    margin-left: 16vw;
+    font-family: Bad Script;
+    font-size: 5vh;
+    font-style: italic;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: #000000;
+  }
+  .home-text-3 {
+    margin-left: 16vw;
+    font-family: Bad Script;
+    font-size: 5vh;
+    font-style: italic;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: #000000;
+  }
+  .home-container7 {
+    margin-top: 1vh;
+    height: 20vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+  }
+  .home-container7-1 {
+    width: 85vw;
+    margin-left: 15vh;
+  }
+  .home-container8 {
+    height: 10.5vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+  }
+  .home-container8-1 {
+    margin-left: 15vw;
+  }
+  .home-container9 {
+    margin-top: 0.5vh;
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+  }
+  .home-container9-1 {
+    margin-left: 70vw;
+  }
+
+  .edu-text12,
+  .edu-text13,
+  .edu-text14,
+  .edu-text15 {
+    font-family: Bad Script;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 2vh;
+    text-transform: capitalize;
+    color: #000000;
+  }
+  .Education-container2 {
+    display: flex;
+    width: 100vw;
+    height: 45vh;
+  }
+
+  .Education-container2-1 {
+    height: 35vh;
+    width: 20vw;
+  }
+  .Education-container2-2 {
+    flex-direction: row;
+    display: flex;
+    width: 80vw;
+    height: 35vh;
+  }
+  .vertical1 {
+    flex-direction: column;
+    justify-content: end;
+    width: 40%;
+    height: 45vh;
+  }
+  .vertical2 {
+    height: 45vh;
+    flex-direction: column;
+    width: 60%;
+    justify-content: space-between;
+  }
+
+  .Education-container2-2-1 {
+    height: 40%;
+  }
+  .Education-container2-2-2 {
+  }
+  .Education-container2-2-3 {
+    height: 25vh;
+  }
+  .Education-container2-2-4 {
+    margin-top: 5vh;
+  }
+  .Education-container2-3 {
+  }
+  .Education-container3 {
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+    width: 90vw;
+    justify-content: flex-end;
+    padding-left: 10vw;
+  }
+  .Education-container4 {
+    padding-left: 10vw;
+    padding-top: 5vh;
+    height: 20vh;
+    width: 90vw;
+  }
+  .Education-container2-2-course {
+  }
+  .edu-text1 {
+    font-family: Bad Script;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 4vh;
+    text-transform: capitalize;
+    color: #000000;
+  }
+
+  .edu-text2 {
+    font-family: Bad Script;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 2.5vh;
+    text-transform: capitalize;
+    color: #000000;
+  }
+  .edu-text3 {
+    margin-left: 3vw;
+    font-family: Bad Script;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 2vh;
+    text-transform: capitalize;
+    color: #000000;
+  }
+  .edu-text4 {
+    margin-left: 5vw;
+    font-family: Bad Script;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 2vh;
+    text-transform: capitalize;
+    color: #000000;
+  }
+  .subjects-container {
+    font-family: Bad Script;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 2vh;
+    text-transform: capitalize;
+    color: #000000;
+  }
+
+  .text-container-1,
+  .text-container-2,
+  text-container-3 {
+    margin-left: 3vw;
+  }
+
+  html,
+  body,
+  .Education-container2-1,
+  .steven-logo,
+  .Education-container2 {
+    margin: 0;
+    padding: 0;
+  }
+  .Education-container1 {
+    padding-top: 28vh;
+    width: 100vw;
+  }
+  .Education-container0 {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100vw;
+  }
+  .steven-logo {
+    margin: 0;
+    padding: 0;
+    height: 35vh;
+    width: 15vw;
+    margin-left: 5vw;
+  }
+  .container-text10 {
+    margin-left: 3vh;
+  }
+  .edu-text20 {
+    margin-left: 3vw;
+    font-family: Bad Script;
+    font-size: 3vh;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 2.2dvh;
+    text-transform: capitalize;
+    color: #631ad9;
+  }
+
+  .exp-1 {
+    height: 3vh;
+    width: 100vw;
+  }
+  .exp-2 {
+    display: flex;
+    height: 27vh;
+    width: 100vw;
+  }
+  .exp-2-1 {
+    width: 20vw;
+    height: 27vh;
+  }
+  .exp-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40vh;
+    width: 100vw;
+  }
+  .exp-4 {
+    height: 10vh;
+    width: 100vw;
+  }
+  .exp-logo {
+    background-color: rgb(255, 255, 255);
+    width: 20vw;
+    height: 27vh;
+  }
+  .exp-2-2 {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 27vh;
+  }
+  .exp-2-2-1 {
+    width: 80vw;
+    height: 10vh;
+  }
+  .exp-2-2-2 {
+    width: 80vw;
+  }
+  .exp-text-1 {
+    margin-left: 3vw;
+    font-family: Bad Script;
+    font-size: 5vh;
+    font-style: italic;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: #000000;
+  }
+  .exp-text-2 {
+    margin-left: 3vw;
+    font-family: Bad Script;
+    font-size: 3vh;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: #000000;
+  }
+  .exp-text-3 {
+    margin-left: 3vw;
+    font-family: Bad Script;
+    font-size: 2vh;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: #000000;
+  }
+  .exp-text-4 {
+    margin-left: 3vw;
+    font-family: Bad Script;
+    font-size: 2vh;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: #000000;
+  }
+  .exp-text-5,
+  .exp-text-6,
+  .exp-text-7 {
+    line-height: 0.5;
+    margin-left: 3vw;
+    font-family: Bad Script;
+    font-size: 1.8vh;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: #000000;
+  }
+
+  
+  .mail {
+    height: 10vh;
+  }
+
+  .linkedin-logo {
+    height: 7vh;
+  }
+  .mail-id {
+    align-self: center;
+    margin-left: 3vw;
+    font-family: Bad Script;
+    font-size: 4vh;
+    font-weight: bolder;
+    color: #000000;
+  }
+  .Linkedin {
+    align-self: center;
+    margin-left: 3vw;
+    font-family: Bad Script;
+    font-size: 4vh;
+    font-weight: bolder;
+    color: #000000;
+  }
+  .contact-1 {
+    height: 10vh;
+    width: 100vw;
+    background-color: #fefefe;
+  }
+  .contact-2 {
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    width: 100vw;
+  }
+  .contact-2-1 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 20vh;
+    width: 50vw;
+  }
+  .contact-2-1-1 {
+    padding: 0%;
+    margin: 0%;
+    height: 10vh;
+    width: 50vw;
+  }
+  .contact-2-1-2 {
+    height: 10vh;
+    width: 50vw;
+  }
+  .contact-2-2 {
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    width: 50vw;
+    justify-content: center;
+    text-align: center;
+  }
+  .contact-2-2-1 {
+    width: 20vw;
+    height: 50%;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-2-2-2 {
+    width: 50vw;
+    height: 50%;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-3 {
+    display: flex;
+    height: 45vh;
+    width: 100vw;
+  }
+
+  .nametext {
+    justify-content: center;
+    height: 10vh;
+    padding-top: 0%;
+
+    margin-left: 4vw;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    width: 45vw;
+    text-align: center;
+
+    font-family: Bad Script;
+    font-size: 3vh;
+    font-style: italic;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: #000000;
+  }
+
+  .nametext-1 {
+    margin-left: 4vw;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 2px;
+    width: 45vw;
+    font-family: Bad Script;
+    font-size: 3vh;
+    font-style: italic;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: #000000;
+  }
+
+  .contact-4 {
+    height: 7vh;
+    width: 100vw;
+    background-color: #d75070;
+  }
+  .text1 {
+    margin-left: 10vw;
+    font-family: Bad Script;
+    font-size: 4vh;
+    font-style: italic;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: #000000;
+  }
