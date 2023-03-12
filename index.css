@@ -9,6 +9,12 @@
   .downloadbuttondiv{
     
   }
+  .send-container{
+    margin-top: 37vh;
+    margin-left: 3vw;
+    width: 30vw;
+    height: 8vh;
+  }
   .downloadbutton1{
     font-family: Bad Script;
     border-radius: 25px;
@@ -24,6 +30,22 @@
     margin-left: 80vw;
     cursor: pointer;
     
+
+  }
+  .send-button{
+    font-family: Bad Script;
+    border-radius: 25px;
+    border: none;
+    margin: 0px;
+    height: 60px;
+    width: 140px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #5cb33f;
+    cursor: pointer;
+  }
+  .send-button:hover{
+    background-color: #0f3701;
 
   }
   .horizondalalign {
@@ -53,14 +75,8 @@
     font-weight: bolder;
     font-size: 36px;
     text-transform: capitalize;
-    color: #000000;
-    cursor: pointer;
-  }
-  
-  .head-text-2-1.scrolled {
-    
     color: #ffffff;
-    
+    cursor: pointer;
   }
   .head-text-2-2 {
     font-family: Bad Script;
@@ -636,3 +652,14 @@
     text-transform: capitalize;
     color: #000000;
   }
+
+  .head-text-2-1:hover,.head-text-2-2:hover,.head-text-2-3:hover,.head-text-2-4:hover,.head-text-2-5:hover{
+    text-decoration: underline;
+    
+  }
+  .downloadbutton1:hover{background-color: #005bf8;}
+
+  #visible.head-text-2-1{color: #000000;}
+  
+    
+  
